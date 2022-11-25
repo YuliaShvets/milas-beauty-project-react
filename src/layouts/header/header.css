@@ -1,0 +1,24 @@
+header {
+    margin: 3vh;
+    border-top: 0.1vw solid #959393;
+    border-bottom: 0.1vw solid #959393;
+    display: flex;
+    padding: 1vw 4vh;
+    justify-content: space-between;
+}
+
+.linksSec {
+    display: flex;
+}
+
+.linksSec a {
+    padding: 1vw 3vw;
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: black;
+    letter-spacing: 0.1vw;
+}
+
+
+
+

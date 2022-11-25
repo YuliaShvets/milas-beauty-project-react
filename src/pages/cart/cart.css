@@ -1,0 +1,51 @@
+.cartSec{
+    height: 80vh;
+}
+.cartSec .block {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3vw;
+}
+
+.cartSec p {
+    text-align: center;
+    margin-top: 50vh;
+    font-size: 4vw;
+    color: #959393;
+}
+
+.cartSec .price {
+    font-size: 1.7vw;
+}
+
+.cartSec button {
+    background-color: transparent;
+    margin-top: 6vh;
+    height: 7vh;
+    width: 4vw;
+    border: 0.2vw solid black;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+
+.cartSec button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cartSec .amount {
+    font-size: 2vw;
+    margin-top: 6vh;
+}
+
+.total-price {
+    font-size: 1.7vw;
+    margin-top: 6vh;
+    padding-left: 5vw;
+    margin-bottom: 5vh;
+}

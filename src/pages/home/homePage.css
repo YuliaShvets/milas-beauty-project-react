@@ -1,0 +1,108 @@
+
+.imageSec img {
+    width: 100%;
+}
+
+.aboutSec {
+    position: absolute;
+    top: 40vh;
+    right: 4vw;
+    width: 30%;
+}
+
+.aboutSec h2 {
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.aboutSec p {
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+
+.selectBtl {
+    background-color: transparent;
+    margin-top: 4vh;
+    margin-left: 3vw;
+    height: 7vh;
+    width: 12vw;
+    border: 0.2vw solid black;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+
+.selectBtl:hover{
+    background-color: black;
+    color: white;
+}
+
+.itemSec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2vw;
+    grid-row-gap: 4vh;
+}
+
+.viewBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-right: 9vw;
+}
+
+.viewBtn button {
+    background-color: transparent;
+    height: 7vh;
+    width: 12vw;
+    border: 0.2vw solid black;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+
+.viewBtn button:hover {
+    background-color: black;
+    color: white;
+}
+
+.topTen {
+    font-size: 2vw;
+}
+
+.contentSec {
+    background-color: #f3ebeb;
+    padding-left: 8vw;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+}
+
+.openingSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8vw;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../assets/images/homePage/opening.png") no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.openingSec h2 {
+    font-size: 4vw;
+    margin: 2vh 0;
+}
+
+.openingSec p {
+    font-size: 1.5vw;
+}
+
+
+
+
+
