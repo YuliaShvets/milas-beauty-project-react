@@ -1,0 +1,46 @@
+.item {
+    background: #d9c9c9 ;
+    height: 48vh;
+    margin-top: 4vh;
+    box-shadow: 0.2vw 0.2vw rgba(136, 136, 136, 0.2);
+    border-radius: 2vw;
+    overflow: hidden;
+    width: 20vw;
+}
+
+.item img {
+    max-height: 60%;
+    width: 100%;
+}
+
+.item h3 {
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 1.2vw;
+}
+
+.item p {
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 1.5vw;
+}
+
+.aboutBtn {
+    text-align: center;
+    background-color: transparent;
+    margin-left: 6.9vw;
+    margin-top: 2vh;
+    height: 3.5vh;
+    width: 6vw;
+    border: 0.2vw solid black;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 0.8vw;
+    transition: 0.3s;
+}
+
+.aboutBtn:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,18 @@
+footer {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+footer div img {
+    width: 30%;
+    padding: 0.4vw;
+}

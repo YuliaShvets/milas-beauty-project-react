@@ -1,0 +1,40 @@
+.filterSec {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 5vw;
+    height: 10vh;
+}
+
+.sortSec label {
+    padding-left: 0.5vw;
+    font-size: 0.9vw;
+    letter-spacing: 0.05vw;
+}
+
+.sortSec h3 {
+    padding-right: 1vw;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+}
+
+.sortInpt {
+    display: flex;
+    margin-top: 1vh;
+}
+
+.searchSec input {
+    height: 4vh;
+    width: 12vw;
+    padding-left: 0.2vw;
+}
+
+.itemSection {
+    min-height: 100vh;
+    padding-left: 8vw;
+    display: grid;
+    padding-top: 3vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2vw;
+    grid-row-gap: 4vh;
+    padding-bottom: 5vh;
+}
